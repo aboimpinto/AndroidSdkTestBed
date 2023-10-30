@@ -34,6 +34,15 @@ RUN wget https://download.visualstudio.microsoft.com/download/pr/61f29db0-10a5-4
 RUN echo 'export DOTNET_ROOT=$HOME/dotnet' >> ~/.bashrc
 RUN echo 'export PATH=$PATH:$HOME/dotnet' >> ~/.bashrc
 
+
+# RUN wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh && \
+#     chmod +x dotnet-install.sh && \
+#     dotnet-install.sh
+
+# RUN echo 'export DOTNET_ROOT=$HOME/.dotnet' >> ~/.bashrc
+# RUN echo 'export PATH=$PATH:$HOME/.dotnet' >> ~/.bashrc
+
+    
 # Android SDK
 # RUN wget http://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip
 # RUN mkdir /opt/android-sdk-linux
